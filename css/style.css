@@ -1,0 +1,156 @@
+/*---------------------------Font--------------------*/
+@font-face {
+font-family: 'Flama-Basic';
+src: url('font/Flama-Basic.woff') format('woff');
+}
+
+/*------------------General CSS---------------*/
+
+body{
+    font-family: 'Flama-Basic';
+    margin: 0 10px 0 10px;
+}
+
+/*------------------Logo---------------*/
+
+#logo{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/*------------------Navigation Bar---------------*/
+#navigation-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #343434;
+    
+}
+
+#navigation-bar li{
+    float: left;
+}
+
+#navigation-bar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#navigation-bar li a:hover:not(.home){
+    background-color: #EAEAEA;
+    color: #2D2D2D;
+}
+
+.home{
+    background-color:#2B345B;  
+}
+
+/*------------------Website Map---------------*/
+
+#website-map{
+    margin:0;
+    padding:0;
+}
+#website-map ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+#website-map li,p{
+    float: left;
+}
+
+#website-map li a,p{
+    display: block;
+    color: #939393;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    padding-left: 0;
+}
+#website-map li a:hover{
+    text-decoration: underline;
+}
+
+
+/*------------------Content---------------*/
+
+#content h4{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 0;
+
+}
+#content p{
+    text-transform: none;
+    text-align: left;
+    font-size: 15px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    color: #727171;
+}
+
+#content li{
+    color: #727171;
+    font-size:15px;
+}
+
+.quantity-box{
+    text-align: center;
+    padding: 8px 10px;
+    width: 80px;
+    margin: 20px 0 10px 0;
+}
+
+#expanded{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding-left: 20px;
+}
+
+#expanded h5{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#expanded p{
+    margin-left:5px;
+    padding-left:0;
+}
+.no-show{
+    display:none;
+
+}
+.pointer-cursor{
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.picture-border{
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+/*------------------Copyright Section---------------*/
+
+#copyright a{
+    border-left: 2px solid #939393; 
+    border-radius: 2px; 
+    padding-left: 2px; 
+    color: #5e5d5d; 
+    text-decoration: none;
+}
